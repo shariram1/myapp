@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/signup',  to: 'users#new'
 
   #get 'welcome/index'
+  resources :users
   resources :articles do
     resources :comments
   end
