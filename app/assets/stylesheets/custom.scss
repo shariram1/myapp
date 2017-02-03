@@ -138,6 +138,21 @@ input {
 	}
 }
 
+.checkbox {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	span {
+		margin-left: 20px;
+		font-weight: normal;
+	}
+}
+
+#session_remember_me {
+	width: auto;
+	margin-top: 0px;
+	margin-left: 20;
+}
+
 
 /* sidebar */
 
